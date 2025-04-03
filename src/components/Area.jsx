@@ -49,7 +49,7 @@ const ShopfrontService = ({ data }) => {
                 <Row className="mb-5">
                     <Col lg={6} className="mb-4" data-aos="flip-left">
                         <Card className="h-100 shadow">
-                            <Card.Header as="h3" className="bg-danger text-white">EMERGENCY SHOP FRONT REPLACEMENT</Card.Header>
+                            <Card.Header as="h3" style={{ background: "#FF6C22" }} className="text-white">EMERGENCY SHOP FRONT REPLACEMENT</Card.Header>
                             <Card.Body>
                                 <p>
                                     {data.emergency}
@@ -60,7 +60,7 @@ const ShopfrontService = ({ data }) => {
 
                     <Col lg={6} className="mb-4" data-aos="flip-right">
                         <Card className="h-100 shadow">
-                            <Card.Header as="h3" className="bg-danger text-white">UPGRADE YOUR SHOP FRONT GLASS</Card.Header>
+                            <Card.Header as="h3" style={{ background: "#FF6C22" }} className="text-white">UPGRADE YOUR SHOP FRONT GLASS</Card.Header>
                             <Card.Body>
                                 {data.upgrade}
                             </Card.Body>
@@ -80,7 +80,31 @@ const ShopfrontService = ({ data }) => {
                                         <li key={index} className="mb-2" data-aos="fade-right">✓ {ele}</li>
                                     ))}
                                 </ul>
-                                <Button onClick={() => router.push("/contact")} variant="primary" size="lg" className="mt-3" data-aos="zoom-in">Contact Us Today</Button>
+                                <Button
+
+                                    className="mt-3 px-4 py-2 rounded-pill"
+                                    style={{
+                                        borderColor: '#ff6c22',
+                                        color: '#ffffff',
+                                        transition: 'all 0.3s ease',
+                                        background: "#ff6c22"
+                                    }}
+                                    onMouseEnter={(e) => {
+                                        e.target.style.background = "#ffffff";
+                                        e.target.style.color = "#ff6c22";
+                                        e.target.style.borderColor = "#ff6c22";
+                                    }}
+                                    onMouseLeave={(e) => {
+                                        e.target.style.background = "#ff6c22";
+                                        e.target.style.color = "#ffffff";
+                                        e.target.style.borderColor = "#ff6c22";
+                                    }}
+                                    data-aos="fade-up"
+                                    data-aos-delay={200}
+                                    onClick={() => router.push("/contact")}
+                                >
+                                    Contact Us Today
+                                </Button>
                             </Card.Body>
                         </Card>
                     </Col>

@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import Script from "next/script";
 import Head from "next/head";
-import WhatsAppModal from "@/common/WhatsAppModal";
 import { BsWhatsapp, BsTelephone } from "react-icons/bs";
 import { Button } from "react-bootstrap";
 import { useRouter } from "next/router";
@@ -62,7 +61,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <WhatsAppModal />
+      {/* <WhatsAppModal /> */}
       <Head>
         <meta name="robots" content="index,follow" />
         <meta

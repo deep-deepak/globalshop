@@ -174,7 +174,7 @@ const HeroSection = () => {
                                     data-aos-delay="400"
                                 >
                                     <img
-                                        src="https://img.freepik.com/free-photo/vintage-window-with-orange-tone-wall_1428-165.jpg?ga=GA1.1.1962322329.1736336781&semt=ais_hybrid"
+                                        src="/images/hero1.jpg"
                                         alt="Roller shutter installation"
                                         className="img-fluid rounded-circle"
                                         style={{ aspectRatio: '1/1', objectFit: 'cover' }}
@@ -193,7 +193,7 @@ const HeroSection = () => {
                                     data-aos-delay="600"
                                 >
                                     <img
-                                        src="https://img.freepik.com/premium-photo/modern-shutters-outdoors-windows-external-blinds-with-sun-light-jalousie-building-exterior_446232-1776.jpg?w=996"
+                                        src="images/hero2.jpg"
                                         alt="Shopfront installation"
                                         className="img-fluid rounded-circle"
                                         style={{ aspectRatio: '1/1', objectFit: 'cover' }}

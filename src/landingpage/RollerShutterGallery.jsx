@@ -9,32 +9,32 @@ const RollerShutterGallery = () => {
     const images = [
         {
             id: 1,
-            src: "https://advcontractors.co.uk/wp-content/uploads/2025/03/rollershutter-repair-service.jpg",
+            src: "/images/home4.jpeg",
             alt: "Roller shutter diagram"
         },
         {
             id: 2,
-            src: "https://advcontractors.co.uk/wp-content/uploads/2023/08/Sectional3_07ebbbeeef4021febb702344d4506a24.jpg",
+            src: "/images/home3.jpeg",
             alt: "Roller shutter installation worker"
         },
         {
             id: 3,
-            src: "https://advcontractors.co.uk/wp-content/uploads/2023/08/Sectional2_ec8c2a9a2290f1b411e5d285560f5541.jpg",
+            src: "/images/home2.jpeg",
             alt: "Roller shutter installation in progress"
         },
         {
             id: 4,
-            src: "https://advcontractors.co.uk/wp-content/uploads/2023/08/Sectional1_49b00e10f23021cea063f5689570c04a.jpg",
+            src: "/images/home1.jpeg",
             alt: "Completed roller shutter installation"
         },
         {
             id: 5,
-            src: "https://advcontractors.co.uk/wp-content/uploads/2023/08/Sectional_a9a5790a2d1edf3ba3cfe0967740f38c.jpg",
+            src: "/images/hero1.jpg",
             alt: "Black roller shutter example"
         },
         {
             id: 6,
-            src: "https://advcontractors.co.uk/wp-content/uploads/2025/03/repair-service-300x225.jpg",
+            src: "/images/hero2.jpg",
             alt: "Gray roller shutter example"
         }
     ];

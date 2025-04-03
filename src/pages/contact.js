@@ -15,23 +15,23 @@ const ContactForm = () => {
 
                         <div>
                             <h5>Name:</h5>
-                            <p className="mb-0 " style={{ color: "#16b943" }}>Global Shopfronts and shutters</p>
+                            <p className="mb-0 " style={{ color: "#FF6C22" }}>Global Shopfronts and shutters</p>
                         </div>
                         <br />
                         <div className="mb-4">
                             <h5>Phone:</h5>
-                            <p className=" mb-0" style={{ color: "#16b943" }}>+44 7735559454</p>
+                            <p className=" mb-0" style={{ color: "#FF6C22" }}>+44 7735559454</p>
                         </div>
                         <div className="mb-4">
                             <h5>E-mail:</h5>
                             <a href="mailto:sales@londonshopfitters.co.uk"
-                                className=" text-decoration-none" style={{ color: "#16b943" }}>
+                                className=" text-decoration-none" style={{ color: "#FF6C22" }}>
                                 globalshopfrontsandshutters@gmail.com
                             </a>
                         </div>
                         <div className="mb-4">
                             <h5>Address:</h5>
-                            <p className=" mb-0" style={{ color: "#16b943" }}>
+                            <p className=" mb-0" style={{ color: "#FF6C22" }}>
                                 12 Wintson close,Sg5 2hb,<br />
                                 city Hitchin
                             </p>
@@ -82,15 +82,31 @@ const ContactForm = () => {
                                 />
                             </Form.Group>
 
-
-
                             <Button
-                                variant="primary"
-                                type="submit"
-                                className="px-4 submit_btn"
+
+                                className="mt-3 px-4 py-2 rounded-pill"
+                                style={{
+                                    borderColor: '#ff6c22',
+                                    color: '#ffffff',
+                                    transition: 'all 0.3s ease',
+                                    background: "#ff6c22"
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.target.style.background = "#ffffff";
+                                    e.target.style.color = "#ff6c22";
+                                    e.target.style.borderColor = "#ff6c22";
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.target.style.background = "#ff6c22";
+                                    e.target.style.color = "#ffffff";
+                                    e.target.style.borderColor = "#ff6c22";
+                                }}
+                                data-aos="fade-up"
+                                data-aos-delay={200 + 400}
                             >
                                 SUBMIT
                             </Button>
+
                         </Form>
                     </Col>
 
@@ -98,8 +114,8 @@ const ContactForm = () => {
 
             </Container>
             <Row>
-                <Col md={12} style={{ borderTop: "5px solid #16b943" }}>
-<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d78695.45843619261!2d-0.36700400452148574!3d51.9479410412529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x487633f7909271e3%3A0x77c9343bca794a7a!2s2%20Winston%20Close%2C%20Hitchin%20SG5%202HB%2C%20UK!3m2!1d51.947969799999996!2d-0.2846042!4m0!5e0!3m2!1sen!2sin!4v1743657221460!5m2!1sen!2sin" width="100%" height="600" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <Col md={12} style={{ borderTop: "5px solid #FF6C22" }}>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d78695.45843619261!2d-0.36700400452148574!3d51.9479410412529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x487633f7909271e3%3A0x77c9343bca794a7a!2s2%20Winston%20Close%2C%20Hitchin%20SG5%202HB%2C%20UK!3m2!1d51.947969799999996!2d-0.2846042!4m0!5e0!3m2!1sen!2sin!4v1743657221460!5m2!1sen!2sin" width="100%" height="600" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </Col>
             </Row>
         </Layout>

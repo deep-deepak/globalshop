@@ -7,7 +7,7 @@ const ProductsSection = () => {
     const servicesData = [
         {
             id: 1,
-            image: 'https://img.freepik.com/free-photo/metal-shutter-door_1203-879.jpg',
+            image: '/images/home2.jpeg',
             icon: <FaLock size={50} color="#ff6c22" />,
             title: 'SECURITY SHUTTERS',
             description: 'We manufacture the right shutters to tighten your business\' security.',
@@ -15,7 +15,7 @@ const ProductsSection = () => {
         },
         {
             id: 2,
-            image: 'https://img.freepik.com/free-photo/modern-storefront-with-large-windows_23-2148765988.jpg',
+            image: '/images/home4.jpeg',
             icon: <FaStore size={50} color="#ff6c22" />,
             title: 'SHOPFRONTS',
             description: 'Only the right shopfront to impress your customers from afar and increase your clientele.',
@@ -23,7 +23,7 @@ const ProductsSection = () => {
         },
         {
             id: 3,
-            image: 'https://img.freepik.com/free-photo/metal-shutter-door_1203-879.jpg',
+            image: '/images/hero1.jpg',
             icon: <FaBuilding size={50} color="#ff6c22" />,
             title: 'CURTAIN WALLING',
             description: 'Let\'s help you define and install the right curtain walling system to suit your building.',
