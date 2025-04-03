@@ -1,32 +1,32 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { FaUsers, FaTools, FaUserGraduate, FaHeadset } from 'react-icons/fa';
+import { FaShippingFast, FaCogs, FaShieldAlt, FaClock } from 'react-icons/fa';
 
 const Service = () => {
   const features = [
     {
       id: 1,
-      icon: <FaUsers size={40} color="#FF6B35" />,
-      title: "Multiple repair teams",
-      description: "strategically located across London for fast dispatch."
+      icon: <FaShippingFast size={40} color="#FF6B35" />,
+      title: "Rapid response teams",
+      description: "Strategically positioned for quick deployment and fast service."
     },
     {
       id: 2,
-      icon: <FaTools size={40} color="#FF6B35" />,
-      title: "Advanced tools and high-quality replacement parts",
-      description: "for quick on-site repairs."
+      icon: <FaCogs size={40} color="#FF6B35" />,
+      title: "State-of-the-art equipment",
+      description: "Using advanced tools for efficient and precise repairs."
     },
     {
       id: 3,
-      icon: <FaUserGraduate size={40} color="#FF6B35" />,
-      title: "Experienced technicians",
-      description: "trained to handle all types of roller shutter issues efficiently."
+      icon: <FaShieldAlt size={40} color="#FF6B35" />,
+      title: "Trusted and skilled professionals",
+      description: "Highly trained technicians ensuring quality workmanship."
     },
     {
       id: 4,
-      icon: <FaHeadset size={40} color="#FF6B35" />,
-      title: "Seamless coordination",
-      description: "between customer support and repair teams for prompt service delivery."
+      icon: <FaClock size={40} color="#FF6B35" />,
+      title: "24/7 availability",
+      description: "Always ready to assist with emergency repairs and maintenance."
     }
   ];
 
@@ -44,7 +44,7 @@ const Service = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          HOW WE ENSURE SAME-DAY REPAIRS:
+          WHY CHOOSE OUR REPAIR SERVICES:
         </h2>
 
         <Row className="g-4">
@@ -116,7 +116,7 @@ const Service = () => {
               className="text-center"
               style={{ color: '#666', fontSize: '1.1rem', lineHeight: '1.6' }}
             >
-              Our <strong>same-day roller shutter repair service</strong> guarantees that your business or home remains secure with minimal disruption. We ensure full repair completion on the same day whenever possible for both an emergency and scheduled maintenance.
+              Our <strong>round-the-clock repair service</strong> ensures that your home or business remains safe and operational. We are committed to delivering fast and reliable solutions tailored to your needs.
             </p>
           </Col>
         </Row>

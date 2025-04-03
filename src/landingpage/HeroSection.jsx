@@ -121,7 +121,7 @@ const HeroSection = () => {
                                     <FaEnvelope size={20} color="white" />
                                 </div>
                                 <Link
-                                    href="mailto:globalshopfrontsandshutters@gmail.com"
+                                    href="mailto:gshopfrontsandshutters@gmail.com"
                                     style={{
                                         fontSize: '1.2rem',
                                         fontWeight: 'bold',
@@ -129,7 +129,7 @@ const HeroSection = () => {
                                         textDecoration: 'none',
                                     }}
                                 >
-                                    globalshopfrontsandshutters@gmail.com
+                                    gshopfrontsandshutters@gmail.com
                                 </Link>
 
                             </div>

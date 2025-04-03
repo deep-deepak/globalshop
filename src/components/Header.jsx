@@ -31,28 +31,28 @@ const Header = () => {
             path: '/services',
             dropdown: [
                 {
-                    category: 'Shop Fronts',
-                    items: [
-                        { label: 'ALUMINIUM SHOP FRONTS', path: '/shop-fronts-aluminium' },
-                        { label: 'GLASS SHOP FRONTS', path: '/shop-fronts-glass' },
-                        { label: 'TIMBER SHOP FRONTS', path: '/shop-fronts-timber' },
-                        { label: 'AUTOMATIC DOORS', path: '/shop-fronts-automatic-doors' },
+                    "category": "Shop Fronts",
+                    "items": [
+                        { "label": "ALUMINIUM SHOP FRONTS", "path": "/service/shop-fronts-aluminium" },
+                        { "label": "GLASS SHOP FRONTS", "path": "/service/shop-fronts-glass" },
+                        { "label": "TIMBER SHOP FRONTS", "path": "/service/shop-fronts-timber" },
+                        { "label": "AUTOMATIC DOORS", "path": "/service/shop-fronts-automatic-doors" }
                     ]
                 },
                 {
-                    category: 'Shutters',
-                    items: [
-                        { label: 'PERFORATED ROLLER SHUTTERS', path: '/shutters-perforated' },
-                        { label: 'PUNCHED ROLLER SHUTTERS', path: '/shutters-punched' },
-                        { label: 'GRILLE ROLLER SHUTTERS', path: '/shutters-grille' },
+                    "category": "Shutters",
+                    "items": [
+                        { "label": "PERFORATED ROLLER SHUTTERS", "path": "/service/shutters-perforated" },
+                        { "label": "PUNCHED ROLLER SHUTTERS", "path": "/service/shutters-punched" },
+                        { "label": "GRILLE ROLLER SHUTTERS", "path": "/service/shutters-grille" }
                     ]
                 },
                 {
-                    category: 'Other Services',
-                    items: [
-                        { label: 'CURTAIN WALL SYSTEM', path: '/curtain-wall' },
-                        { label: 'WINDOWS & DOORS', path: '/windows-doors' },
-                        { label: 'PROTECTION SCREEN', path: '/protection-screen' },
+                    "category": "Other Services",
+                    "items": [
+                        { "label": "CURTAIN WALL SYSTEM", "path": "/service/curtain-wall" },
+                        { "label": "WINDOWS & DOORS", "path": "/service/windows-doors" },
+                        { "label": "PROTECTION SCREEN", "path": "/service/protection-screen" }
                     ]
                 }
             ]

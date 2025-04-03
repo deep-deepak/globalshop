@@ -13,7 +13,7 @@ const ExpertiseSection = () => {
         <Row className="align-items-center aos-init aos-animate" data-aos="fade-up">
           <Col lg={6} md={12} className="mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-right">
             <Image
-              src="/images/home1.jpeg"
+              src="/images/gallery11.jpg"
               alt="Roller shutters installed on a building"
               fluid
               className="w-100"

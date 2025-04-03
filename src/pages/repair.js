@@ -11,7 +11,7 @@ export default function Repair() {
   return (
     <Layout>
         <Seo title="repair service" description="repair service"/>
-        <PageHeading title="roller shutters repair service" image=""/>
+        <PageHeading title="roller shutters repair service" image="/images/service37.avif"/>
       <About/>
       <RollerShutterCTA/>
       <Service/>

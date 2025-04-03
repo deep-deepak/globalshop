@@ -4,26 +4,25 @@ import DividerWithIcon from '@/common/DividerWithIcon';
 
 const About = () => {
   const headerData = {
-    title: "ROLLER SHUTTER REPAIR SERVICE IN LONDON",
+    title: "EXPERT ROLLER SHUTTER REPAIR SERVICES IN UK",
     paragraphs: [
-      "Adv Contractors offer a fast, efficient, and reliable 24 hour emergency shutter repair service for shopfronts, industrial roller shutters, aluminum security doors, security windows, shopfront auto doors, commercial shutters, retail shop shutters, and fire exit doors in London.",
-      "Whether your roller shutters or automatic doors have been damaged by accident while in use or as a result of an attempted vandalism/break-in, our emergency shutter repair team is here to help."
+      "Global Shopfronts provide prompt, reliable, and efficient 24/7 emergency shutter repair services. We cater to shopfronts, industrial roller shutters, aluminum security doors, security windows, automatic shopfront doors, commercial shutters, retail store shutters, and fire exit doors across the UK.",
+      "If your roller shutters or automatic doors sustain damage due to an accident or a break-in attempt, our emergency repair specialists are ready to assist you immediately."
     ]
   };
 
   const featureSections = [
     {
       id: 1,
-      title: "FAST SAME-DAY COMPLETE REPAIR WORK BY OUR EXPERT TEAMS",
+      title: "SWIFT SAME-DAY REPAIRS BY SKILLED PROFESSIONALS",
       backgroundColor: "#FFBF00",
       paragraphs: [
-        "At <strong>Roller Shutter Repair Service London</strong>, we take pride in offering <strong>fast same-day repair solutions</strong>. Consequently, this will minimize downtime and security risks. Furthermore, our dedicated teams are equipped with fully stocked vans. Thus, our engineers are able to complete most repairs on the spot within the same day.",
-        "Whether it's a jammed shutter, motor failure, or damaged slats, our professionals ensure a swift diagnosis and immediate fix."
+        "At <strong>Roller Shutter Repair Service UK</strong>, we pride ourselves on providing <strong>same-day repair services</strong>. This helps minimize security vulnerabilities and downtime. Our teams arrive equipped with fully stocked vans, enabling them to complete most repairs on-site within the same day.",
+        "From jammed shutters and motor issues to damaged slats, our experienced technicians quickly diagnose and resolve any issue efficiently."
       ],
-      image: "https://advcontractors.co.uk/wp-content/uploads/2024/05/2-1.jpg",
+      image: "/images/service28.avif",
       imagePosition: "right"
     }
-    // Add more feature sections here if needed
   ];
 
   return (
@@ -31,11 +30,7 @@ const About = () => {
       <DividerWithIcon />
       <Container className="px-md-4 py-5">
         {/* Header Section */}
-        <Row
-          className="mb-5"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+        <Row className="mb-5" data-aos="fade-up" data-aos-duration="1000">
           <Col xs={12} className="px-3 px-md-4 text-center">
             <h1
               className="mb-4"
@@ -75,28 +70,14 @@ const About = () => {
           >
             {section.imagePosition === "right" ? (
               <>
-                {/* Content Box */}
-                <Col
-                  xs={12}
-                  md={6}
-                  className="p-0"
-                  data-aos="fade-right"
-                  data-aos-delay={index * 200 + 100}
-                >
+                <Col xs={12} md={6} className="p-0" data-aos="fade-right" data-aos-delay={index * 200 + 100}>
                   <div
                     className="p-4 p-md-5 h-100 d-flex flex-column justify-content-center shadow-sm"
-                    style={{
-                      backgroundColor: section.backgroundColor,
-                      transition: 'transform 0.3s ease'
-                    }}
+                    style={{ backgroundColor: section.backgroundColor, transition: 'transform 0.3s ease' }}
                   >
                     <h2
                       className="mb-4 text-dark"
-                      style={{
-                        fontWeight: 'bold',
-                        fontSize: 'clamp(1.5rem, 4vw, 2.2rem)',
-                        textTransform: 'uppercase'
-                      }}
+                      style={{ fontWeight: 'bold', fontSize: 'clamp(1.5rem, 4vw, 2.2rem)', textTransform: 'uppercase' }}
                       data-aos="fade-up"
                       data-aos-delay={index * 200 + 200}
                     >
@@ -115,97 +96,24 @@ const About = () => {
                     ))}
                   </div>
                 </Col>
-
-                {/* Image */}
-                <Col
-                  xs={12}
-                  md={6}
-                  className="p-0"
-                  data-aos="fade-left"
-                  data-aos-delay={index * 200 + 100}
-                >
+                <Col xs={12} md={6} className="p-0" data-aos="fade-left" data-aos-delay={index * 200 + 100}>
                   <div
                     className="h-100"
                     style={{
                       backgroundImage: `url("${section.image}")`,
                       backgroundSize: 'cover',
                       backgroundPosition: 'center',
-                      minHeight: '300px',
+                      minHeight: '480px',
                       borderRadius: '8px',
                       transition: 'transform 0.3s ease'
                     }}
                   />
                 </Col>
               </>
-            ) : (
-              <>
-                {/* Image (left position) */}
-                <Col
-                  xs={12}
-                  md={6}
-                  className="p-0 order-2 order-md-1"
-                  data-aos="fade-right"
-                  data-aos-delay={index * 200 + 100}
-                >
-                  <div
-                    className="h-100"
-                    style={{
-                      backgroundImage: `url("${section.image}")`,
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      minHeight: '300px',
-                      borderRadius: '8px',
-                      transition: 'transform 0.3s ease'
-                    }}
-                  />
-                </Col>
-
-                {/* Content Box (right position) */}
-                <Col
-                  xs={12}
-                  md={6}
-                  className="p-0 order-1 order-md-2"
-                  data-aos="fade-left"
-                  data-aos-delay={index * 200 + 100}
-                >
-                  <div
-                    className="p-4 p-md-5 h-100 d-flex flex-column justify-content-center shadow-sm"
-                    style={{
-                      backgroundColor: section.backgroundColor,
-                      transition: 'transform 0.3s ease'
-                    }}
-                  >
-                    <h2
-                      className="mb-4 text-dark"
-                      style={{
-                        fontWeight: 'bold',
-                        fontSize: 'clamp(1.5rem, 4vw, 2.2rem)',
-                        textTransform: 'uppercase'
-                      }}
-                      data-aos="fade-up"
-                      data-aos-delay={index * 200 + 200}
-                    >
-                      {section.title}
-                    </h2>
-
-                    {section.paragraphs.map((paragraph, pIndex) => (
-                      <p
-                        key={pIndex}
-                        className="mb-3 text-dark"
-                        style={{ lineHeight: '1.6' }}
-                        dangerouslySetInnerHTML={{ __html: paragraph }}
-                        data-aos="fade-up"
-                        data-aos-delay={index * 200 + 300 + pIndex * 100}
-                      />
-                    ))}
-                  </div>
-                </Col>
-              </>
-            )}
+            ) : null}
           </Row>
         ))}
       </Container>
-
       <style jsx>{`
         .shadow-sm:hover {
           transform: translateY(-5px);

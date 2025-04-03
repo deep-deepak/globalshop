@@ -2,15 +2,15 @@
     "shop-fronts-aluminium": {
         "heroSection": {
             "image": "/images/service1.avif",
-            "title": "Modern Aluminium Shopfront Solutions",
+            "title": "Premium Aluminium Shopfront Solutions",
             "description": [
-                "High-quality aluminium shopfronts designed for strength and contemporary style.",
-                "Perfect for commercial spaces seeking durability and aesthetic versatility.",
-                "Our aluminium shopfronts are customizable, secure, and eco-friendly, providing the perfect blend of form and function."
+                "Top-quality aluminium shopfronts crafted for durability and modern appeal.",
+                "Ideal for commercial properties looking for strength and versatile aesthetics.",
+                "Our aluminium shopfronts are secure, customizable, and environmentally friendly, combining style with functionality."
             ]
         },
         "gallerySection": {
-            "title": "Aluminium Shopfront Gallery",
+            "title": "Aluminium Shopfront Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -37,51 +37,51 @@
                 {
                     "id": 1,
                     "image": "/images/service2.jpg",
-                    "alt": "Contemporary aluminium shopfront"
+                    "alt": "Modern aluminium shopfront"
                 },
                 {
                     "id": 2,
                     "image": "/images/service3.avif",
-                    "alt": "Sleek aluminium storefront design"
+                    "alt": "Stylish aluminium storefront design"
                 },
                 {
                     "id": 3,
                     "image": "/images/service4.avif",
-                    "alt": "Durable aluminium shopfront"
+                    "alt": "Sturdy aluminium shopfront"
                 },
                 {
                     "id": 4,
                     "image": "/images/service5.avif",
-                    "alt": "Custom-designed aluminium shopfront"
+                    "alt": "Bespoke aluminium shopfront design"
                 },
                 {
                     "id": 5,
                     "image": "/images/service6.avif",
-                    "alt": "Elegant aluminium shopfront in a commercial space"
+                    "alt": "Sophisticated aluminium shopfront in a retail setting"
                 },
                 {
                     "id": 6,
                     "image": "/images/service7.avif",
-                    "alt": "Minimalist aluminium shopfront design"
+                    "alt": "Sleek minimalist aluminium shopfront"
                 }
             ]
         },
-        "title": "Aluminium Shop Fronts & Shutters | K & D Shopfront and Shutters",
-        "description": "K & D Shopfront and Shutters offers high-quality aluminium shop fronts, replacement double glazing glass, and durable shop front shutters. Contact us now."
+        "title": "Aluminium Shop Fronts & Shutters | Global Shopfronts UK",
+        "description": "Global Shopfronts UK provides premium aluminium shop fronts, high-quality replacement double glazing glass, and durable shop front shutters. Get in touch with us today."
     },
     "shop-fronts-glass": {
         "heroSection": {
             "image": "/images/service5.avif",
-            "title": "Stylish Glass Shopfront Solutions",
+            "title": "Elegant Glass Shopfront Solutions",
             "description": [
-                "Elegant glass shopfronts designed to enhance visibility and modern appeal.",
-                "A perfect choice for businesses seeking a sleek and contemporary aesthetic.",
-                "Our glass shopfronts are crafted with premium-grade materials, ensuring both durability and aesthetic excellence.",
-                "Customizable solutions tailored to match your brand identity and architectural requirements."
+                "Sleek glass shopfronts designed to maximize visibility and modern aesthetics.",
+                "An ideal choice for businesses looking for a contemporary and stylish appearance.",
+                "Our glass shopfronts are built using high-quality materials, ensuring durability and visual appeal.",
+                "Tailored solutions to align with your brand identity and architectural vision."
             ]
         },
         "gallerySection": {
-            "title": "Glass Shopfront Gallery",
+            "title": "Glass Shopfront Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -108,49 +108,49 @@
                 {
                     "id": 1,
                     "image": "/images/service6.avif",
-                    "alt": "Transparent glass shopfront"
+                    "alt": "Crystal-clear glass shopfront"
                 },
                 {
                     "id": 2,
                     "image": "/images/service7.avif",
-                    "alt": "Modern glass storefront design"
+                    "alt": "Sophisticated glass storefront design"
                 },
                 {
                     "id": 3,
                     "image": "/images/service8.avif",
-                    "alt": "Custom glass shopfront solution"
+                    "alt": "Bespoke glass shopfront solution"
                 },
                 {
                     "id": 4,
                     "image": "/images/service9.avif",
-                    "alt": "Frameless glass shopfront design"
+                    "alt": "Frameless glass shopfront concept"
                 },
                 {
                     "id": 5,
                     "image": "/images/service10.avif",
-                    "alt": "Tempered glass shopfront in a retail space"
+                    "alt": "Tempered glass shopfront in a commercial setting"
                 },
                 {
                     "id": 6,
                     "image": "/images/service11.avif",
-                    "alt": "Premium glass shopfront with signage"
+                    "alt": "Premium glass shopfront with custom signage"
                 }
             ]
         },
-        "title": "Shop Front Glass Replacement | K & D Shopfront and Shutters",
-        "description": "Get high-quality shop front glass, store front glass doors, and glass replacement services with K & D Shopfront and Shutters. Upgrade your business today!"
+        "title": "Shop Front Glass Replacement | Global Shopfronts UK",
+        "description": "Upgrade your business with high-quality shop front glass, storefront glass doors, and expert glass replacement services from Global Shopfronts UK."
     },
     "shop-fronts-timber": {
         "heroSection": {
             "image": "/images/pageheading.jpg",
-            "title": "Elegant Timber Shopfront Solutions",
+            "title": "Refined Timber Shopfront Solutions",
             "description": [
-                "Premium timber shopfront designs tailored to enhance commercial aesthetics.",
-                "Combining durability and timeless style to meet diverse business needs."
+                "High-quality timber shopfront designs crafted to enhance commercial spaces.",
+                "Blending durability with timeless elegance to suit a variety of business needs."
             ]
         },
         "gallerySection": {
-            "title": "Timber Shopfront Gallery",
+            "title": "Timber Shopfront Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -167,34 +167,34 @@
                 {
                     "id": 1,
                     "image": "/images/service10.avif",
-                    "alt": "Classic timber shopfront"
+                    "alt": "Classic wooden shopfront"
                 },
                 {
                     "id": 2,
                     "image": "/images/service11.avif",
-                    "alt": "Modern timber shopfront design"
+                    "alt": "Contemporary timber shopfront design"
                 },
                 {
                     "id": 3,
                     "image": "/images/service12.jpg",
-                    "alt": "Custom wooden shopfront"
+                    "alt": "Custom-crafted timber shopfront"
                 }
             ]
         },
-        "title": "Timber Frame Construction & Windows in London",
-        "description": "K & D Shopfront and Shutters offers expert timber frame construction, high-quality timber windows, and various types of timber frame solutions. Contact us today!"
+        "title": "Timber Frame Construction & Windows in the UK | Global Shopfronts",
+        "description": "Global Shopfronts UK provides expert timber frame construction, premium timber windows, and tailored timber frame solutions. Get in touch with us today!"
     },
     "shop-fronts-automatic-doors": {
         "heroSection": {
             "image": "/images/service13.avif",
-            "title": "Innovative Automatic Door Shopfronts",
+            "title": "Advanced Automatic Door Shopfronts",
             "description": [
-                "Seamless and modern automatic door systems for efficient customer flow.",
-                "Designed for convenience, durability, and a sleek appearance."
+                "State-of-the-art automatic door systems designed for smooth and efficient entry.",
+                "Engineered for convenience, longevity, and a sleek, modern look."
             ]
         },
         "gallerySection": {
-            "title": "Automatic Door Shopfront Gallery",
+            "title": "Automatic Door Shopfront Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -211,34 +211,34 @@
                 {
                     "id": 1,
                     "image": "/images/service14.jpg",
-                    "alt": "Sleek automatic glass door shopfront"
+                    "alt": "Stylish automatic glass door shopfront"
                 },
                 {
                     "id": 2,
                     "image": "/images/service15.avif",
-                    "alt": "Modern automatic sliding doors"
+                    "alt": "Contemporary automatic sliding doors"
                 },
                 {
                     "id": 3,
                     "image": "/images/service16.avif",
-                    "alt": "Custom automatic door shopfront"
+                    "alt": "Custom-designed automatic door shopfront"
                 }
             ]
         },
-        "title": "Automatic Shop Front Doors at K & D Shopfront and Shutters",
-        "description": "Upgrade with automatic shop front doors at the best price. K & D Shopfront and Shutters specializes in front door replacements & automatic door solutions."
+        "title": "Automatic Shop Front Doors | Global Shopfronts UK",
+        "description": "Upgrade your business with premium automatic shop front doors at competitive prices. Global Shopfronts UK specializes in front door replacements and advanced automatic door solutions."
     },
     "shutters-perforated": {
         "heroSection": {
             "image": "/images/service17.avif",
-            "title": "Durable Perforated Shutters",
+            "title": "Robust Perforated Shutters",
             "description": [
-                "Secure and stylish perforated shutters for ventilation and visibility.",
-                "Ideal for commercial and residential applications with enhanced protection."
+                "Secure and aesthetically designed perforated shutters for optimal airflow and visibility.",
+                "Perfect for both commercial and residential use, offering enhanced security and durability."
             ]
         },
         "gallerySection": {
-            "title": "Perforated Shutter Gallery",
+            "title": "Perforated Shutter Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -255,34 +255,34 @@
                 {
                     "id": 1,
                     "image": "/images/service18.avif",
-                    "alt": "Perforated shutter with modern design"
+                    "alt": "Modern perforated shutter design"
                 },
                 {
                     "id": 2,
                     "image": "/images/service19.jpg",
-                    "alt": "Durable perforated roller shutters"
+                    "alt": "High-durability perforated roller shutters"
                 },
                 {
                     "id": 3,
                     "image": "/images/service20.avif",
-                    "alt": "Stylish perforated shutter installation"
+                    "alt": "Sleek perforated shutter installation"
                 }
             ]
         },
-        "title": "Perforated Roller Shutters at K & D Shopfront and Shutters",
-        "description": "We offer expert rolling shutter installation services, including perforated roller shutters, PVC Rolling shutters, and shutter system installation. Visit now."
+        "title": "Perforated Roller Shutters | Global Shopfronts UK",
+        "description": "Global Shopfronts UK specializes in high-quality perforated roller shutters, PVC rolling shutters, and professional shutter system installations. Get in touch with us today!"
     },
     "shutters-punched": {
         "heroSection": {
             "image": "/images/service21.avif",
-            "title": "Stylish Punched Shutters",
+            "title": "Modern Punched Shutters",
             "description": [
-                "Elegant punched shutters designed for ventilation and visibility.",
-                "Perfect for commercial and retail spaces seeking a modern aesthetic with added security."
+                "Sleek punched shutters designed to provide both ventilation and visibility.",
+                "Ideal for commercial and retail spaces looking for a stylish yet secure solution."
             ]
         },
         "gallerySection": {
-            "title": "Punched Shutter Gallery",
+            "title": "Punched Shutter Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -299,34 +299,34 @@
                 {
                     "id": 1,
                     "image": "/images/service22.jpg",
-                    "alt": "Modern punched shutter design"
+                    "alt": "Contemporary punched shutter design"
                 },
                 {
                     "id": 2,
                     "image": "/images/service23.jpg",
-                    "alt": "Punched roller shutter for retail"
+                    "alt": "Punched roller shutter for retail storefronts"
                 },
                 {
                     "id": 3,
                     "image": "/images/service24.jpg",
-                    "alt": "Stylish punched shutter installation"
+                    "alt": "Premium punched shutter installation"
                 }
             ]
         },
-        "title": "Rolling Shutter Repair at  K & D Shopfront and Shutters",
-        "description": "K & D Shopfront and Shutters offers high-quality shutter parts, professional shutter servicing, and expert rolling shutter repair. Emergency repairs available 24/7!"
+        "title": "Rolling Shutter Repair & Installation | Global Shopfronts UK",
+        "description": "Global Shopfronts UK provides top-quality shutter components, expert shutter servicing, and professional rolling shutter repair. Emergency repair services available 24/7!"
     },
     "shutters-grille": {
         "heroSection": {
             "image": "/images/service25.avif",
-            "title": "Secure Grille Shutters",
+            "title": "Durable Grille Shutters",
             "description": [
-                "Strong and stylish grille shutters for enhanced security and ventilation.",
-                "Perfect for retail, commercial, and industrial applications with maximum visibility."
+                "Robust and stylish grille shutters offering superior security and airflow.",
+                "Ideal for retail, commercial, and industrial spaces requiring maximum visibility and protection."
             ]
         },
         "gallerySection": {
-            "title": "Grille Shutter Gallery",
+            "title": "Grille Shutter Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -343,7 +343,7 @@
                 {
                     "id": 1,
                     "image": "/images/service26.avif",
-                    "alt": "Stylish grille shutter design"
+                    "alt": "Modern grille shutter design"
                 },
                 {
                     "id": 2,
@@ -353,24 +353,24 @@
                 {
                     "id": 3,
                     "image": "/images/service28.avif",
-                    "alt": "Durable grille shutters for storefronts"
+                    "alt": "High-strength grille shutters for storefronts"
                 }
             ]
         },
-        "title": "Shop Front & Roller Shutters | K & D Shopfront & Shutters",
-        "description": "K & D Shopfront and Shutters offers high-quality shop front roller grilles, roller shutters, and manual rolling shutters. Secure and enhance your storefront today!"
+        "title": "Shop Front & Roller Grille Shutters | Global Shopfronts UK",
+        "description": "Global Shopfronts UK offers top-quality roller grilles, roller shutters, and manual rolling shutters. Secure your storefront with our premium solutions today!"
     },
     "curtain-wall": {
         "heroSection": {
             "image": "/images/service29.avif",
-            "title": "Modern Curtain Wall Systems",
+            "title": "Advanced Curtain Wall Systems",
             "description": [
-                "Innovative curtain wall solutions designed for exceptional aesthetics and energy efficiency.",
-                "Enhance your building's façade with durable and sustainable materials."
+                "Cutting-edge curtain wall solutions designed for superior aesthetics and energy efficiency.",
+                "Upgrade your building’s façade with durable, high-performance materials."
             ]
         },
         "gallerySection": {
-            "title": "Curtain Wall Gallery",
+            "title": "Curtain Wall Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -387,34 +387,34 @@
                 {
                     "id": 1,
                     "image": "/images/service30.avif",
-                    "alt": "Modern curtain wall design"
+                    "alt": "Sleek modern curtain wall design"
                 },
                 {
                     "id": 2,
                     "image": "/images/service31.avif",
-                    "alt": "Glass and aluminum curtain wall"
+                    "alt": "Glass and aluminium curtain wall system"
                 },
                 {
                     "id": 3,
                     "image": "/images/service32.avif",
-                    "alt": "Energy-efficient curtain wall system"
+                    "alt": "Energy-efficient curtain wall installation"
                 }
             ]
         },
-        "title": "Curtain Wall Installation | Glass & Aluminium Walls",
-        "description": "K & D Shopfront and Shutters specializes in expert curtain wall installation, including glass and aluminium curtain walls, ensuring durability and modern aesthetics."
+        "title": "Curtain Wall Installation | Glass & Aluminium Walls | Global Shopfronts UK",
+        "description": "Global Shopfronts UK specializes in premium curtain wall installations, offering expert solutions in glass and aluminium curtain walls for durability and contemporary design."
     },
     "windows-doors": {
         "heroSection": {
             "image": "/images/service33.avif",
-            "title": "Premium Windows and Doors",
+            "title": "High-Quality Windows and Doors",
             "description": [
-                "High-quality windows and doors designed for style, security, and energy efficiency.",
-                "Perfect for residential and commercial spaces with modern design needs."
+                "Superior windows and doors designed for elegance, security, and energy efficiency.",
+                "Ideal for both residential and commercial properties seeking a modern touch."
             ]
         },
         "gallerySection": {
-            "title": "Windows and Doors Gallery",
+            "title": "Windows and Doors Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -431,34 +431,34 @@
                 {
                     "id": 1,
                     "image": "/images/service34.avif",
-                    "alt": "Modern glass window design"
+                    "alt": "Contemporary glass window design"
                 },
                 {
                     "id": 2,
                     "image": "/images/service35.avif",
-                    "alt": "Stylish residential doors"
+                    "alt": "Elegant residential door solutions"
                 },
                 {
                     "id": 3,
                     "image": "/images/service36.jpg",
-                    "alt": "Energy-efficient window and door system"
+                    "alt": "Energy-efficient window and door installation"
                 }
             ]
         },
-        "title": "Black Sliding Glass Doors | K & D Shopfront and Shutters",
-        "description": "Upgrade your space with sleek black sliding glass doors. K & D Shopfront and Shutters offers high-quality outside sliding doors for style and security. Contact us today!"
+        "title": "Black Sliding Glass Doors | Global Shopfronts UK",
+        "description": "Transform your space with stylish black sliding glass doors. Global Shopfronts UK offers premium outside sliding doors for enhanced security and modern aesthetics. Get in touch today!"
     },
     "protection-screen": {
         "heroSection": {
             "image": "/images/service37.avif",
-            "title": "High-Performance Protection Screens",
+            "title": "Superior Protection Screens",
             "description": [
-                "Advanced protection screens designed for safety and security in residential and commercial spaces.",
-                "Offering durability, visibility, and protection against external elements."
+                "Cutting-edge protection screens designed to enhance safety in both residential and commercial settings.",
+                "Providing durability, clear visibility, and strong defense against external elements."
             ]
         },
         "gallerySection": {
-            "title": "Protection Screen Gallery",
+            "title": "Protection Screen Showcase",
             "downloads": [
                 {
                     "id": 1,
@@ -475,21 +475,21 @@
                 {
                     "id": 1,
                     "image": "/images/service38.avif",
-                    "alt": "Durable protection screen installation"
+                    "alt": "Secure protection screen installation"
                 },
                 {
                     "id": 2,
                     "image": "/images/service39.avif",
-                    "alt": "Protection screen for windows"
+                    "alt": "High-strength protection screen for windows"
                 },
                 {
                     "id": 3,
                     "image": "/images/service40.avif",
-                    "alt": "Advanced protection screen design"
+                    "alt": "Innovative protection screen design"
                 }
             ]
         },
-        "title": "Premium Security Screen Doors | K & D Shopfront & Shutters",
-        "description": "Enhance security with premium screen doors from K & D Shopfront & Shutters. Explore modern designs, security mesh, and screen door guards for ultimate protection."
+        "title": "Premium Security Screen Doors | Global Shopfronts UK",
+        "description": "Upgrade security with high-quality screen doors from Global Shopfronts UK. Discover modern designs, security mesh solutions, and durable screen door guards for ultimate protection."
     }
 }

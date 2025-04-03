@@ -13,7 +13,7 @@ const ShopfrontService = ({ data }) => {
     return (
         <div className="shopfront-service-page">
             <Seo
-                title={`Shopfronts in ${data.name} | ADV Contractors`}
+                title={`Shopfronts in ${data.name} | global shopfronts and shutters`}
                 description={`Professional shopfront installation and emergency repairs in ${data.name}. Glazed and glass shopfronts for retail stores.`}
             />
 
@@ -21,7 +21,7 @@ const ShopfrontService = ({ data }) => {
             <div className="hero-banner position-relative" data-aos="fade-down">
                 <PageHeading
                     title={`Roller Shutter Repair in ${data.name}`}
-                    image="/images/shopfront-banner.jpg"
+                    image={data.image}
                 />
             </div>
 

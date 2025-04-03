@@ -1,6 +1,6 @@
 import Service from '@/common/Service';
 import Layout from '@/layout/Layout';
-import serviceData from '../data/api.json';
+import serviceData from '../../data/api.json';
 
 export async function getStaticPaths() {
     // Get all service paths from your api.json

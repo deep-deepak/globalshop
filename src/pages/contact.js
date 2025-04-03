@@ -26,7 +26,7 @@ const ContactForm = () => {
                             <h5>E-mail:</h5>
                             <a href="mailto:sales@londonshopfitters.co.uk"
                                 className=" text-decoration-none" style={{ color: "#FF6C22" }}>
-                                globalshopfrontsandshutters@gmail.com
+                                gshopfrontsandshutters@gmail.com
                             </a>
                         </div>
                         <div className="mb-4">

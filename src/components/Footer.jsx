@@ -80,7 +80,7 @@ const Footer = () => {
                             </li>
                             <li className="mb-4 d-flex align-items-center">
                                 <BlinkingText text={<MdEmail size={24} className="me-3 text-white" />} />
-                                <p className="mb-0">globalshopfrontsandshutters@gmail.com</p>
+                                <p className="mb-0">gshopfrontsandshutters@gmail.com</p>
                             </li>
                             <li>
                                 <div className="d-flex gap-3 social_icons">
