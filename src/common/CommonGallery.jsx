@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
 import ButtonLink from './ButtonLink';
+import { useRouter } from 'next/router';
 
 
 const Gallery = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [currentIndex, setCurrentIndex] = useState(0); 
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const router = useRouter()
 
   // Gallery images data
   const galleryImages = [
@@ -58,23 +60,23 @@ const Gallery = () => {
       <h2 className="text-center mb-4" style={{ fontWeight: '600' }}>
         GALLERY
       </h2>
-      
+
       {/* Gallery Grid */}
       <Row className="g-4">
         {galleryImages.map((image, index) => (
           <Col key={image.id} xs={12} sm={6} lg={3}>
-            <div 
-              className="gallery-item" 
+            <div
+              className="gallery-item"
               onClick={() => handleImageClick(image, index)}
               style={{ cursor: 'pointer' }}
             >
-              <img 
-                src={image.src} 
-                alt={image.alt} 
-                className="img-fluid w-100" 
-                style={{ 
-                  height: '200px', 
-                  objectFit: 'cover', 
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="img-fluid w-100"
+                style={{
+                  height: '200px',
+                  objectFit: 'cover',
                   borderRadius: '4px',
                   transition: 'transform 0.3s ease'
                 }}
@@ -85,16 +87,40 @@ const Gallery = () => {
           </Col>
         ))}
       </Row>
-     <ButtonLink href="/gallery" variant="success">
-        Explore More
-      </ButtonLink>
+      <div className="d-flex justify-content-center">
+        <Button
+          className="mt-3 px-4 py-2 rounded-pill"
+          style={{
+            borderColor: '#ff6c22',
+            color: '#ffffff',
+            transition: 'all 0.3s ease',
+            background: "#ff6c22",
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.background = "#ffffff";
+            e.target.style.color = "#ff6c22";
+            e.target.style.borderColor = "#ff6c22";
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.background = "#ff6c22";
+            e.target.style.color = "#ffffff";
+            e.target.style.borderColor = "#ff6c22";
+          }}
+          data-aos="fade-up"
+          data-aos-delay={600}
+          onClick={() => router.push('/gallery')}
+        >
+          Explore More
+        </Button>
+      </div>
+
 
 
 
       {/* Lightbox Modal */}
-      <Modal 
-        show={showModal} 
-        onHide={() => setShowModal(false)} 
+      <Modal
+        show={showModal}
+        onHide={() => setShowModal(false)}
         centered
         size="xl"
         className="gallery-modal"
@@ -109,34 +135,34 @@ const Gallery = () => {
         </Modal.Header>
         <Modal.Body className="p-0 position-relative">
           {selectedImage && (
-            <img 
-              src={selectedImage.src} 
-              alt={selectedImage.alt} 
+            <img
+              src={selectedImage.src}
+              alt={selectedImage.alt}
               className="img-fluid w-100"
               style={{ maxHeight: '80vh', objectFit: 'contain' }}
             />
           )}
-          
+
           {/* Navigation arrows */}
           <div className="position-absolute top-50 start-0 translate-middle-y">
-            <button 
+            <button
               className="btn btn-dark rounded-circle p-2 m-2"
               onClick={handlePrevious}
               style={{ opacity: 0.7 }}
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">
-                <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
               </svg>
             </button>
           </div>
           <div className="position-absolute top-50 end-0 translate-middle-y">
-            <button 
+            <button
               className="btn btn-dark rounded-circle p-2 m-2"
               onClick={handleNext}
               style={{ opacity: 0.7 }}
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
               </svg>
             </button>
           </div>
@@ -146,13 +172,13 @@ const Gallery = () => {
             {/* Thumbnails for navigation */}
             <div className="d-flex gap-2">
               {galleryImages.map((img, idx) => (
-                <img 
+                <img
                   key={img.id}
                   src={img.src}
-                  alt={`Thumbnail ${idx+1}`}
-                  style={{ 
-                    width: '60px', 
-                    height: '40px', 
+                  alt={`Thumbnail ${idx + 1}`}
+                  style={{
+                    width: '60px',
+                    height: '40px',
                     objectFit: 'cover',
                     cursor: 'pointer',
                     opacity: idx === currentIndex ? 1 : 0.6,
@@ -166,7 +192,7 @@ const Gallery = () => {
               ))}
             </div>
           </div>
-          <button 
+          <button
             className="btn btn-outline-secondary"
             onClick={() => setShowModal(false)}
           >

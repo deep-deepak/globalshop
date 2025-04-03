@@ -70,7 +70,7 @@ export default function Service({ data, serviceName }) {
                                 href={"#"}
                                 className="text-decoration-none text-dark d-flex align-items-center justify-content-center gap-2"
                             >
-                                <FaArrowRight size={20} style={{ color: "#16b943" }} />
+                                <FaArrowRight size={20} style={{ color: "#ff6c22" }} />
                                 <span>{download.title}</span>
                             </a>
                         </Col>
@@ -93,15 +93,34 @@ export default function Service({ data, serviceName }) {
                 </Row>
 
                 {/* View Gallery Button */}
-                <div className="text-center">
+                <div className="d-flex justify-content-center">
                     <Button
-                        onClick={() => router.push("/gallery")}
-                        variant="outline-danger"
-                        className="px-4 py-2 text-uppercase tracking-widest view_gallery"
+                        className="mt-3 px-4 py-2 rounded-pill"
+                        style={{
+                            borderColor: '#ff6c22',
+                            color: '#ffffff',
+                            transition: 'all 0.3s ease',
+                            background: "#ff6c22",
+                        }}
+                        onMouseEnter={(e) => {
+                            e.target.style.background = "#ffffff";
+                            e.target.style.color = "#ff6c22";
+                            e.target.style.borderColor = "#ff6c22";
+                        }}
+                        onMouseLeave={(e) => {
+                            e.target.style.background = "#ff6c22";
+                            e.target.style.color = "#ffffff";
+                            e.target.style.borderColor = "#ff6c22";
+                        }}
+                        data-aos="fade-up"
+                        data-aos-delay={600}
+                        onClick={() => router.push('/gallery')}
                     >
                         View Gallery
                     </Button>
                 </div>
+
+
             </Container>
         </div >
     );

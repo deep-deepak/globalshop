@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
 import BlinkingText from '@/common/BlinkingText'
+import { GrLinkNext } from "react-icons/gr";
 
 const quickLinks = [
     { name: 'Home', path: '/' },
@@ -22,12 +23,12 @@ const services = [
 ];
 
 const socialLinks = [
-    { icon: <FaFacebookF size={18} />, path: 'https://www.facebook.com/' },
-    { icon: <FaTwitter size={18} />, path: 'https://twitter.com/' },
-    { icon: <FaPinterestP size={18} />, path: 'https://www.pinterest.com/' },
-    { icon: <FaLinkedinIn size={18} />, path: 'https://www.linkedin.com/' },
-    { icon: <FaYoutube size={18} />, path: 'https://www.youtube.com/' },
-    { icon: <FaInstagram size={18} />, path: 'https://www.instagram.com/' },
+    { icon: <FaFacebookF size={18} style={{ color: "#ff6c22" }} />, path: 'https://www.facebook.com/' },
+    { icon: <FaTwitter size={18} style={{ color: "#ff6c22" }} />, path: 'https://twitter.com/' },
+    { icon: <FaPinterestP size={18} style={{ color: "#ff6c22" }} />, path: 'https://www.pinterest.com/' },
+    { icon: <FaLinkedinIn size={18} style={{ color: "#ff6c22" }} />, path: 'https://www.linkedin.com/' },
+    { icon: <FaYoutube size={18} style={{ color: "#ff6c22" }} />, path: 'https://www.youtube.com/' },
+    { icon: <FaInstagram size={18} style={{ color: "#ff6c22" }} />, path: 'https://www.instagram.com/' },
 ];
 
 const Footer = () => {
@@ -41,7 +42,7 @@ const Footer = () => {
                             {quickLinks.map((link, index) => (
                                 <li key={index} className="mb-2">
                                     <Link href={link.path} className="text-light text-decoration-none hover:text-primary d-flex align-items-center">
-                                        <span className="me-2">→</span>{link.name.toUpperCase()}
+                                        <span className="me-2" style={{ color: "#ff6c22" }} ><GrLinkNext /></span>{link.name.toUpperCase()}
                                     </Link>
                                 </li>
                             ))}
@@ -54,7 +55,7 @@ const Footer = () => {
                             {services.map((service, index) => (
                                 <li key={index} className="mb-2">
                                     <Link href={service.path} className="text-light text-decoration-none hover:text-primary d-flex align-items-center">
-                                        <span className="me-2">→</span>{service.name.toUpperCase()}
+                                        <span className="me-2" style={{ color: "#ff6c22" }} ><GrLinkNext /></span>{service.name.toUpperCase()}
                                     </Link>
                                 </li>
                             ))}
@@ -84,9 +85,8 @@ const Footer = () => {
                             <li>
                                 <div className="d-flex gap-3 social_icons">
                                     {socialLinks.map((social, index) => (
-                                        <Link key={index} href={social.path} target='_blank' className="text-light p-2">
+                                        <Link key={index} href={social.path} target='_blank' className="text-light p-2" >
                                             {social.icon}
-
                                         </Link>
                                     ))}
                                 </div>
