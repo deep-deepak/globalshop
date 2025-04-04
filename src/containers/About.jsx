@@ -6,11 +6,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function About() {
     const [activeTab, setActiveTab] = useState('mission');
     const [animate, setAnimate] = useState(false);
-    
+
     useEffect(() => {
         setAnimate(true);
     }, []);
-    
+
     return (
         <div className="about-page">
             <Seo title={'About Us'} description={'Learn more about Global Shopfronts'} />
@@ -49,9 +49,9 @@ export default function About() {
             {/* Philosophy Section with Interactive Tabs */}
             <Container fluid className="p-0">
                 <Row className="mx-0">
-                    <Col md={6} className="bg-gradient-orange text-white p-5 philosophy-section" style={{background:"#ff6c22"}}>
+                    <Col md={6} className="bg-gradient-orange text-white p-5 philosophy-section" style={{ background: "#ff6c22" }}>
                         <h2 className="text-uppercase mb-5 display-5 fw-bold with-underline">Our Philosophy</h2>
-                        
+
                         <div className="tab-container">
                             <div className={`tab-header ${activeTab === 'mission' ? 'active' : ''}`} onClick={() => setActiveTab('mission')}>
                                 <h3 className="text-uppercase m-0">Our Mission</h3>
@@ -275,8 +275,8 @@ export default function About() {
                 
                 .experience-badge {
                     position: absolute;
-                    bottom: 40px;
-                    right: 40px;
+                    bottom: 0;
+                    right: 30px;
                     background-color: var(--orange-primary);
                     padding: 15px;
                     width: 120px;

@@ -53,11 +53,11 @@ export default function App({ Component, pageProps }) {
     window.open("https://wa.me/447735559454", "_blank");
   };
 
-  useEffect(() => {
-    if (router.pathname !== '/') {
-      router.push('/');
-    }
-  }, [router.pathname]);
+  // useEffect(() => {
+  //   if (router.pathname !== '/') {
+  //     router.push('/');
+  //   }
+  // }, [router.pathname]);
 
   return (
     <>

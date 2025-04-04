@@ -29,7 +29,7 @@ const RollerShutterGallery = () => {
         },
         {
             id: 5,
-            src: "/images/hero1.jpg",
+            src: "/images/service20.avif",
             alt: "Black roller shutter example"
         },
         {

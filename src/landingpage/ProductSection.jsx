@@ -23,7 +23,7 @@ const ProductsSection = () => {
         },
         {
             id: 3,
-            image: '/images/hero1.jpg',
+            image: '/images/curtainwal.avif',
             icon: <FaBuilding size={50} color="#ff6c22" />,
             title: 'CURTAIN WALLING',
             description: 'Let\'s help you define and install the right curtain walling system to suit your building.',
