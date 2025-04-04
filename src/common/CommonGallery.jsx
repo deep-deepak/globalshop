@@ -14,24 +14,45 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "https://advcontractors.co.uk/wp-content/uploads/2018/09/Parking-shutter-repair-in-Paddington-300x225.jpeg", // Replace with your actual image URLs
+      src: "/images/gall.avif",
       alt: "Roller shutter installation in parking garage"
     },
     {
       id: 2,
-      src: "https://advcontractors.co.uk/wp-content/uploads/2018/06/Roller-Shutter-Repair-15-300x188.jpg",
+      src: "/images/gall1.jpg",
       alt: "Technician repairing roller shutter"
     },
     {
       id: 3,
-      src: "https://advcontractors.co.uk/wp-content/uploads/2018/06/Industrial-roller-shutter-1-300x200.jpg",
+      src: "/images/gall2.jpg",
       alt: "Industrial roller shutter installation"
     },
     {
       id: 4,
-      src: "https://advcontractors.co.uk/wp-content/uploads/2023/08/SHUTTER-REPAIR-3-300x215.png",
+      src: "/images/gall3.jpg",
       alt: "Roller shutter maintenance"
+    },
+    {
+      id: 5,
+      src: "/images/gall4.jpg",
+      alt: "Close-up of roller shutter mechanism"
+    },
+    {
+      id: 6,
+      src: "/images/gall5.jpg",
+      alt: "Roller shutter remote control system"
+    },
+    {
+      id: 7,
+      src: "/images/gall6.jpg",
+      alt: "Commercial building roller shutter installation"
+    },
+    {
+      id: 8,
+      src: "/images/gall8.jpg",
+      alt: "Technician upgrading roller shutter motor"
     }
+
   ];
 
   // Open modal with selected image
@@ -48,6 +69,7 @@ const Gallery = () => {
     setSelectedImage(galleryImages[nextIndex]);
   };
 
+  const isGalleryPage = router.pathname === '/gallery';
   // Navigate to previous image
   const handlePrevious = () => {
     const prevIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
@@ -57,9 +79,11 @@ const Gallery = () => {
 
   return (
     <Container className="py-5">
-      <h2 className="text-center mb-4" style={{ fontWeight: '600' }}>
-        GALLERY
-      </h2>
+      {!isGalleryPage && (
+        <h2 className="text-center mb-4" style={{ fontWeight: '600' }}>
+          GALLERY
+        </h2>
+      )}
 
       {/* Gallery Grid */}
       <Row className="g-4">
@@ -87,33 +111,34 @@ const Gallery = () => {
           </Col>
         ))}
       </Row>
-      <div className="d-flex justify-content-center">
-        <Button
-          className="mt-3 px-4 py-2 rounded-pill"
-          style={{
-            borderColor: '#ff6c22',
-            color: '#ffffff',
-            transition: 'all 0.3s ease',
-            background: "#ff6c22",
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.background = "#ffffff";
-            e.target.style.color = "#ff6c22";
-            e.target.style.borderColor = "#ff6c22";
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.background = "#ff6c22";
-            e.target.style.color = "#ffffff";
-            e.target.style.borderColor = "#ff6c22";
-          }}
-          data-aos="fade-up"
-          data-aos-delay={600}
-          onClick={() => router.push('/gallery')}
-        >
-          Explore More
-        </Button>
-      </div>
-
+      {!isGalleryPage && (
+        <div className="d-flex justify-content-center">
+          <Button
+            className="mt-3 px-4 py-2 rounded-pill"
+            style={{
+              borderColor: '#ff6c22',
+              color: '#ffffff',
+              transition: 'all 0.3s ease',
+              background: "#ff6c22",
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.background = "#ffffff";
+              e.target.style.color = "#ff6c22";
+              e.target.style.borderColor = "#ff6c22";
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.background = "#ff6c22";
+              e.target.style.color = "#ffffff";
+              e.target.style.borderColor = "#ff6c22";
+            }}
+            data-aos="fade-up"
+            data-aos-delay={600}
+            onClick={() => router.push('/gallery')}
+          >
+            Explore More
+          </Button>
+        </div>
+      )}
 
 
 

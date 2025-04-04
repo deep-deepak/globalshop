@@ -15,11 +15,11 @@ const quickLinks = [
 ];
 
 const services = [
-    { name: 'Fire Rated Shutters', path: '/services/fire-rated-shutters' },
-    { name: 'Automatic Roller Shutter Doors', path: '/services/automatic-roller-shutter-doors' },
-    { name: 'Emergency Repair', path: '/services/emergency-repair' },
-    { name: 'High-Speed Roller Shutter Doors', path: '/services/high-speed-roller-shutter-doors' },
-    { name: 'Security Roller Shutter', path: '/services/security-roller-shutter' },
+    { name: 'Fire Rated Shutters', path: '/service/shutters-grille' },
+    { name: 'Automatic Roller Shutter Doors', path: '/service/shutters-perforated/' },
+    { name: 'Emergency Repair', path: "/service/protection-screen" },
+    { name: 'High-Speed Roller Shutter Doors', path: '/service/windows-doors/' },
+    { name: 'Security Roller Shutter', path: '/service/shutters-punched/' },
 ];
 
 const socialLinks = [

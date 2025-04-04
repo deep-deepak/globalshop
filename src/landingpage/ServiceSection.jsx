@@ -31,7 +31,7 @@ const ServiceSection = () => {
             title: 'OUR SERVICES',
             description: 'We specialize in designing, manufacturing, and installing premium shopfronts, glass fittings, and maintenance services tailored to businesses worldwide, with a strong presence in the UK market.',
             icon: <FaUserCog size={30} color="#ff9966" />,
-            buttonText: 'Customer Support',
+            buttonText: 'Explore Services',
             buttonIcon: <FaUserTie />,
             gradient: 'linear-gradient(to right, #ff9966, #ff5e62)',
             link: "/category"

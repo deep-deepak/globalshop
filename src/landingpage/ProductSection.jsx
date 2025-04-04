@@ -11,7 +11,7 @@ const ProductsSection = () => {
             icon: <FaLock size={50} color="#ff6c22" />,
             title: 'SECURITY SHUTTERS',
             description: 'We manufacture the right shutters to tighten your business\' security.',
-            link: '#'
+            link: "/service/shop-fronts-aluminium/"
         },
         {
             id: 2,
@@ -19,7 +19,7 @@ const ProductsSection = () => {
             icon: <FaStore size={50} color="#ff6c22" />,
             title: 'SHOPFRONTS',
             description: 'Only the right shopfront to impress your customers from afar and increase your clientele.',
-            link: '#'
+            link: '/service/shop-fronts-glass/'
         },
         {
             id: 3,
@@ -27,7 +27,7 @@ const ProductsSection = () => {
             icon: <FaBuilding size={50} color="#ff6c22" />,
             title: 'CURTAIN WALLING',
             description: 'Let\'s help you define and install the right curtain walling system to suit your building.',
-            link: '#'
+            link: '/service/curtain-wall/'
         }
     ];
 

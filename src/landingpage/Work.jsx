@@ -32,6 +32,7 @@ const Work = () => {
 
     const sectionRef = useRef(null);
     const countersRef = useRef([]);
+    const timersRef = useRef([]);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -41,19 +42,38 @@ const Work = () => {
                         countersRef.current.forEach((counter, index) => {
                             const target = stats[index].value;
                             let start = 0;
-                            const duration = 2000; // Animation duration in ms
-                            const stepTime = Math.abs(Math.floor(duration / target));
+                            const duration = 5000; // Exactly 5 seconds for all counters
                             const isFloat = target % 1 !== 0;
 
+                            // Calculate step size to ensure smooth animation
+                            const frameRate = 30; // 30 updates per second
+                            const totalFrames = duration / (1000 / frameRate);
+                            const increment = target / totalFrames;
+
+                            const startTime = Date.now();
+
                             const timer = setInterval(() => {
-                                start += isFloat ? 0.1 : 1;
-                                if (start >= target) {
-                                    counter.textContent = isFloat ? target.toFixed(1) : target;
+                                const elapsedTime = Date.now() - startTime;
+
+                                // If we've reached 5 seconds, show the final value and stop
+                                if (elapsedTime >= duration) {
+                                    counter.textContent = isFloat ? target.toFixed(1) + stats[index].suffix : target + stats[index].suffix;
                                     clearInterval(timer);
-                                } else {
-                                    counter.textContent = isFloat ? start.toFixed(1) : Math.floor(start);
+                                    return;
                                 }
-                            }, stepTime);
+
+                                // Otherwise continue incrementing
+                                // Calculate current value based on percentage of time elapsed
+                                const progress = elapsedTime / duration;
+                                const currentValue = progress * target;
+
+                                counter.textContent = isFloat ?
+                                    currentValue.toFixed(1) + stats[index].suffix :
+                                    Math.floor(currentValue) + stats[index].suffix;
+                            }, 1000 / frameRate);
+
+                            // Store timer reference for cleanup
+                            timersRef.current[index] = timer;
                         });
                         observer.unobserve(entry.target);
                     }
@@ -67,9 +87,13 @@ const Work = () => {
         }
 
         return () => {
+            // Clean up observer
             if (sectionRef.current) {
                 observer.unobserve(sectionRef.current);
             }
+
+            // Clear all timers
+            timersRef.current.forEach(timer => clearInterval(timer));
         };
     }, []);
 

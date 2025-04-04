@@ -1,6 +1,6 @@
 import PageHeading from '@/common/PageHeading'
 import Seo from '@/common/Seo'
-import GallerySection  from '@/common/CommonGallery'
+import GallerySection from '@/common/CommonGallery'
 import Layout from '@/layout/Layout'
 import React from 'react'
 
@@ -9,8 +9,8 @@ export default function Gallery() {
         <>
             <Layout>
                 <Seo title={"gallery"} descrption={"gallery"} />
-                <PageHeading title={"Gallery"} image={"images/gallery112.jpg"} />
-                 <GallerySection />
+                <PageHeading title={"Gallery"} image={"/images/gall1.jpg"} />
+                <GallerySection />
             </Layout>
 
         </>
