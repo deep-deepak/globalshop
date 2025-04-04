@@ -20,4 +20,4 @@ Crawl-delay: 10
 User-agent: AhrefsBot
 Crawl-delay: 10
 
-Sitemap: https://kdshopfrontandshutters.com/sitemap.xml
+Sitemap: https://globalshopfrontsandshutters.co.uk/sitemap.xml

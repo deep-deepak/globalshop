@@ -68,15 +68,15 @@ export default function App({ Component, pageProps }) {
           name="google-site-verification"
           content="pDXrhOKbmr95EG4Rbtns71Q0xQx0SdWCKwhuMjICydw"
         />
-        <link rel="canonical" href="https://kdshopfrontandshutters.com/" />
+        <link rel="canonical" href="https://globalshopfrontsandshutters.co.uk/" />
         <script type="application/ld+json">
           {`
             {
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "kdshopfrontandshutters",
-              "alternateName": "kdshopfrontandshutters",
-              "url": "https://kdshopfrontandshutters.com/",
+              "name": "globalshopfrontsandshutters",
+              "alternateName": "globalshopfrontsandshutters",
+              "url": "https://globalshopfrontsandshutters.co.uk/",
               "logo": "",
               "contactPoint": {
                 "@type": "ContactPoint",
