@@ -2,13 +2,13 @@ export const blogPosts = [
   {
     id: "1",
     slug: "roller-shutters-near-me",
-    title: "Roller Shutters Near Me – Best Solutions with K & D Shopfront and Shutters",
+    title: "Roller Shutters Near Me – Best Solutions with Global ShopFronts Shopfront and Shutters",
     content: `
-        <p>Roller shutters have become an essential addition to residential, commercial, and industrial properties. Whether you're looking for security, insulation, or aesthetic appeal, roller shutters offer a perfect solution. If you're searching for <a href="https://kdshopfrontandshutters.com/" target="_blank">roller shutters near me</a>, look no further than K & D Shopfront and Shutters.</p>
+        <p>Roller shutters have become an essential addition to residential, commercial, and industrial properties. Whether you're looking for security, insulation, or aesthetic appeal, roller shutters offer a perfect solution. If you're searching for <a href="https://kdshopfrontandshutters.com/" target="_blank">roller shutters near me</a>, look no further than Global ShopFronts Shopfront and Shutters.</p>
   
         <h2>Benefits of Installing Roller Shutters</h2>
         <h3>1. Enhanced Security</h3>
-        <p>One of the main reasons people invest in roller shutters is security. They act as a physical barrier, making it difficult for intruders to break in. K & D Shopfront and Shutters provides high-quality, durable shutters to ensure your property remains safe.</p>
+        <p>One of the main reasons people invest in roller shutters is security. They act as a physical barrier, making it difficult for intruders to break in. Global ShopFronts Shopfront and Shutters provides high-quality, durable shutters to ensure your property remains safe.</p>
   
         <h3>2. Energy Efficiency</h3>
         <p>Roller shutters help in regulating indoor temperatures by reducing heat loss in winter and blocking excessive heat in summer. This leads to lower energy bills and a more comfortable indoor environment.</p>
@@ -22,7 +22,7 @@ export const blogPosts = [
         <h3>5. Increased Privacy</h3>
         <p>If you value your privacy, roller shutters allow you to control the amount of visibility into your property. You can roll them up for an open feel or keep them down for complete privacy.</p>
   
-        <h2>Types of Roller Shutters Available at K & D Shopfront and Shutters</h2>
+        <h2>Types of Roller Shutters Available at Global ShopFronts Shopfront and Shutters</h2>
         <img src="/blog/rollershutter1.avif" alt="Types of Roller Shutters" style="width:100%; height:450px; margin-bottom: 20px;" />
         <ul>
           <li><strong>Manual Roller Shutters:</strong> Operated by hand and are an affordable solution for homes and small businesses.</li>
@@ -32,7 +32,7 @@ export const blogPosts = [
           <li><strong>Insulated Roller Shutters:</strong> Offer both thermal and acoustic insulation, making them an excellent choice for energy efficiency and noise reduction.</li>
         </ul>
   
-        <h2>Why Choose K & D Shopfront and Shutters?</h2>
+        <h2>Why Choose Global ShopFronts Shopfront and Shutters?</h2>
         <ul>
           <li><strong>High-Quality Materials:</strong> We use premium materials to manufacture durable and long-lasting roller shutters.</li>
           <li><strong>Customization Options:</strong> We offer tailor-made solutions to suit your specific needs and preferences.</li>
@@ -44,7 +44,7 @@ export const blogPosts = [
         <h2>How to Choose the Right Roller Shutter for Your Needs</h2>
         <ol>
           <li><strong>Determine Your Requirements:</strong> Are you looking for security, insulation, or noise reduction?</li>
-          <li><strong>Consider Your Budget:</strong> Our team at K & D Shopfront and Shutters can guide you to the best option within your budget.</li>
+          <li><strong>Consider Your Budget:</strong> Our team at Global ShopFronts Shopfront and Shutters can guide you to the best option within your budget.</li>
           <li><strong>Think About Aesthetics:</strong> Choose a design that complements the exterior of your property.</li>
           <li><strong>Look for Durability:</strong> Investing in high-quality materials ensures longevity and better protection for your property.</li>
         </ol>
@@ -66,21 +66,21 @@ export const blogPosts = [
           <li><strong>Professional Servicing:</strong> Schedule periodic maintenance with our experts to prolong the life of your shutters.</li>
         </ul>
   
-        <h2>Contact K & D Shopfront and Shutters Today!</h2>
-        <p>If you’re searching for <a href="https://kdshopfrontandshutters.com/shop-fronts-aluminium/" target="_blank">shop front shutters</a>, K & D Shopfront and Shutters is your trusted partner. With high-quality products, expert installation, and excellent customer service, we ensure your property gets the best protection and aesthetic appeal.</p>
+        <h2>Contact Global ShopFronts Shopfront and Shutters Today!</h2>
+        <p>If you’re searching for <a href="https://kdshopfrontandshutters.com/shop-fronts-aluminium/" target="_blank">shop front shutters</a>, Global ShopFronts Shopfront and Shutters is your trusted partner. With high-quality products, expert installation, and excellent customer service, we ensure your property gets the best protection and aesthetic appeal.</p>
   
-        <p><strong>Secure your property with the best roller shutters – contact K & D Shopfront and Shutters now!</strong></p>
+        <p><strong>Secure your property with the best roller shutters – contact Global ShopFronts Shopfront and Shutters now!</strong></p>
       `,
     image: "/blog/rollershuutter.avif",
-    metaTitle: "Roller Shutters Near Me – Best Solutions | K & D Shopfronts",
-    metaDesecription: "Find durable and secure roller shutters near you with K & D Shopfronts. Get high-quality solutions for homes and businesses. Contact us for a free quote!"
+    metaTitle: "Roller Shutters Near Me – Best Solutions | Global ShopFronts Shopfronts",
+    metaDesecription: "Find durable and secure roller shutters near you with Global ShopFronts Shopfronts. Get high-quality solutions for homes and businesses. Contact us for a free quote!"
   },
   {
     "id": "2",
     "slug": "shop-front-shutters-near-me",
-    "title": "Shop Front Shutters Near Me – Secure & Stylish Solutions by K & D Shopfront and Shutters",
+    "title": "Shop Front Shutters Near Me – Secure & Stylish Solutions by Global ShopFronts Shopfront and Shutters",
     "content": `
-      <p>If you are searching for <a href="https://kdshopfrontandshutters.com/" target="_blank">shop front shutters near me</a>, look no further! At K & D Shopfront and Shutters, we specialize in designing, installing, and maintaining premium-quality shutters that combine security and aesthetics. Whether you own a retail store, a café, or a commercial property, investing in high-quality shop front shutters is a smart decision.</p>
+      <p>If you are searching for <a href="https://kdshopfrontandshutters.com/" target="_blank">shop front shutters near me</a>, look no further! At Global ShopFronts Shopfront and Shutters, we specialize in designing, installing, and maintaining premium-quality shutters that combine security and aesthetics. Whether you own a retail store, a café, or a commercial property, investing in high-quality shop front shutters is a smart decision.</p>
     
       <h2>Types of Shop Front Shutters</h2>
       <ul>
@@ -113,7 +113,7 @@ export const blogPosts = [
       </ol>
     
       <h2>Professional Installation and Maintenance Services</h2>
-      <p>At K & D Shopfront and Shutters, we offer expert installation services to ensure that your shutters are fitted securely and function smoothly. Our team provides regular maintenance services to keep your shutters in top condition, preventing potential issues before they arise.</p>
+      <p>At Global ShopFronts Shopfront and Shutters, we offer expert installation services to ensure that your shutters are fitted securely and function smoothly. Our team provides regular maintenance services to keep your shutters in top condition, preventing potential issues before they arise.</p>
     
       <h2>Additional Services We Offer</h2>
       <ul>
@@ -121,7 +121,7 @@ export const blogPosts = [
         <li><strong>Replace Front Door Services:</strong> If your shop’s entrance door is damaged or outdated, we provide reliable <a href="https://kdshopfrontandshutters.com/shop-fronts-automatic-doors/" target="_blank">replace front door</a> services. A new door can improve security and give your storefront a fresh, modern look.</li>
       </ul>
     
-      <h2>Why Choose K & D Shopfront and Shutters?</h2>
+      <h2>Why Choose Global ShopFronts Shopfront and Shutters?</h2>
 
       <ul>
         <li><strong>High-Quality Products:</strong> We use top-grade materials to ensure durability and security.</li>
@@ -132,20 +132,20 @@ export const blogPosts = [
       </ul>
     
       <h2>Conclusion</h2>
-      <p>If you are searching for shop front shutters near me, K & D Shopfront and Shutters is your trusted partner. We provide top-notch security solutions, including store front glass and replace front door services, ensuring your business remains secure and visually appealing.</p>
+      <p>If you are searching for shop front shutters near me, Global ShopFronts Shopfront and Shutters is your trusted partner. We provide top-notch security solutions, including store front glass and replace front door services, ensuring your business remains secure and visually appealing.</p>
     
       <p><strong>Contact us today to discuss your shop front shutter needs and get a free quote. Secure your business with the best shutters in the industry!</strong></p>
       `,
     "image": "/blog/shopfront1.jpg",
     "metaTitle": "Shop Front Shutters Near Me | Secure & Stylish Solution",
-    "metaDescription": " Find shop front shutters near me at K & D Shopfront and Shutters. Secure, stylish, and durable solutions. Contact us today for expert installation!"
+    "metaDescription": " Find shop front shutters near me at Global ShopFronts Shopfront and Shutters. Secure, stylish, and durable solutions. Contact us today for expert installation!"
   },
   {
     "id": "3",
     "slug": "rolling-shutter-repair-services",
-    "title": "Expert Rolling Shutter Repair & Services | K & D Shopfront and Shutters",
+    "title": "Expert Rolling Shutter Repair & Services | Global ShopFronts Shopfront and Shutters",
     "content":
-      `<p>At K & D Shopfront and Shutters, we specialize in high-quality <a href='https://kdshopfrontandshutters.com/shutters-punched/' target='_blank'>rolling shutter repair and services</a> to ensure your business remains secure and fully operational. Whether you have manual or automatic rolling shutters, our experienced team provides fast, efficient, and affordable repair solutions tailored to your needs.</p>
+      `<p>At Global ShopFronts Shopfront and Shutters, we specialize in high-quality <a href='https://kdshopfrontandshutters.com/shutters-punched/' target='_blank'>rolling shutter repair and services</a> to ensure your business remains secure and fully operational. Whether you have manual or automatic rolling shutters, our experienced team provides fast, efficient, and affordable repair solutions tailored to your needs.</p>
         
         <h2>Comprehensive Rolling Shutter Repair Solutions</h2>
         <p>Rolling shutters play a crucial role in safeguarding your commercial and industrial spaces. Over time, they may face wear and tear, electrical malfunctions, or misalignment issues, requiring immediate attention. Our professional technicians have years of expertise in diagnosing and fixing all types of rolling shutter problems, including:</p>
@@ -159,7 +159,7 @@ export const blogPosts = [
           <li><strong>Weatherproofing & Insulation Repairs:</strong> Protecting your shutters from environmental damage.</li>
         </ul>
         
-        <h2>Why Choose K & D Shopfront and Shutters?</h2>
+        <h2>Why Choose Global ShopFronts Shopfront and Shutters?</h2>
         <p>We take pride in offering top-notch rolling shutter repair services with unmatched reliability. Here's why businesses trust us:</p>
         
         <ul>
@@ -194,21 +194,21 @@ export const blogPosts = [
         </ul>
         
         <h2>Get in Touch for Professional Rolling Shutter Repairs</h2>
-        <p><a href='https://kdshopfrontandshutters.com/' target='_blank'>At K & D Shopfront and Shutters</a>, we are committed to delivering efficient, reliable, and cost-effective rolling shutter solutions. Whether you need a quick fix or a full replacement, our experts are here to help.</p>
+        <p><a href='https://kdshopfrontandshutters.com/' target='_blank'>At Global ShopFronts Shopfront and Shutters</a>, we are committed to delivering efficient, reliable, and cost-effective rolling shutter solutions. Whether you need a quick fix or a full replacement, our experts are here to help.</p>
         
         <p><strong>📞 Call us now for a free consultation and quote!</strong></p>
         <p><strong>🌍 <a href='https://kdshopfrontandshutters.com/contact' target='_blank'>Visit our website</a> to learn more about our services.</strong></p>`,
 
     "image": "/blog/rollershute.avif",
-    "metaTitle": "Rolling Shutter Repair & Services - K & D Shopfront and Shutters",
-    "metaDescription": "Need fast and reliable rolling shutter repair services? K & D Shopfront and Shutters offers 24/7 emergency repairs for commercial and industrial shutters. Visit now."
+    "metaTitle": "Rolling Shutter Repair & Services - Global ShopFronts Shopfront and Shutters",
+    "metaDescription": "Need fast and reliable rolling shutter repair services? Global ShopFronts Shopfront and Shutters offers 24/7 emergency repairs for commercial and industrial shutters. Visit now."
   },
   {
     "id": "4",
     "slug": "automatic-shop-front-doors",
     "title": "Automatic Shop Front Doors: Enhancing Accessibility and Security",
     "content":
-      `<p>In the modern business landscape, having a well-designed and functional shop front is crucial. <strong><a href="https://kdshopfrontandshutters.com/shop-fronts-automatic-doors/"target="_blank"></a>Automatic shop front doors</a></strong> have become a preferred choice for businesses looking to enhance accessibility, security, and aesthetic appeal. At K & D Shopfront and Shutters, we specialize in providing high-quality automatic door solutions tailored to the unique needs of commercial spaces.</p>
+      `<p>In the modern business landscape, having a well-designed and functional shop front is crucial. <strong><a href="https://kdshopfrontandshutters.com/shop-fronts-automatic-doors/"target="_blank"></a>Automatic shop front doors</a></strong> have become a preferred choice for businesses looking to enhance accessibility, security, and aesthetic appeal. At Global ShopFronts Shopfront and Shutters, we specialize in providing high-quality automatic door solutions tailored to the unique needs of commercial spaces.</p>
 
 <img src="/blog/doorshop.jpg" alt="Types of Roller Shutters" style="width:100%; height:450px; margin-bottom: 20px;" />
         <h2>Why Choose Automatic Shop Front Doors?</h2>
@@ -223,7 +223,7 @@ export const blogPosts = [
     </ul>
   
     <h2>Types of Automatic Shop Front Doors</h2>
-    <p><a href="https://kdshopfrontandshutters.com" target="_blank">At K & D Shopfront and Shutters</a>, we offer a variety of automatic door solutions to suit different business needs:</p>
+    <p><a href="https://kdshopfrontandshutters.com" target="_blank">At Global ShopFronts Shopfront and Shutters</a>, we offer a variety of automatic door solutions to suit different business needs:</p>
   
     <ul>
       <li><strong>Sliding Automatic Doors:</strong> Ideal for spaces with limited entrance width, sliding doors operate smoothly with motion sensors and provide an elegant entrance solution.</li>
@@ -233,7 +233,7 @@ export const blogPosts = [
     </ul>
   
     <h2>Customization Options</h2>
-    <p>Understanding that every business has unique requirements, K & D Shopfront and Shutters provides customized automatic doors to align with your branding and operational needs. Our customization options include:</p>
+    <p>Understanding that every business has unique requirements, Global ShopFronts Shopfront and Shutters provides customized automatic doors to align with your branding and operational needs. Our customization options include:</p>
   
     <ul>
       <li>✅ <strong>Material choices:</strong> Aluminum, toughened glass, and steel-reinforced frames.</li>
@@ -243,7 +243,7 @@ export const blogPosts = [
     </ul>
   
     <h2>Installation and Maintenance Services</h2>
-    <p>At K & D Shopfront and Shutters, we pride ourselves on offering seamless installation and maintenance services for automatic doors. Our team of skilled technicians ensures precise fitting, compliance with safety standards, and ongoing maintenance to keep your doors functioning efficiently.</p>
+    <p>At Global ShopFronts Shopfront and Shutters, we pride ourselves on offering seamless installation and maintenance services for automatic doors. Our team of skilled technicians ensures precise fitting, compliance with safety standards, and ongoing maintenance to keep your doors functioning efficiently.</p>
   
     <h3>Regular Maintenance for Longevity</h3>
     <p>To extend the lifespan of your automatic shop front doors, we recommend regular servicing, which includes:</p>
@@ -255,8 +255,8 @@ export const blogPosts = [
       <li>✔ Cleaning and adjusting door panels and tracks.</li>
     </ul>
   
-    <h2>Why Choose K & D Shopfront and Shutters?</h2>
-    <p>With years of expertise in<a href="https://kdshopfrontandshutters.com/shop-fronts-aluminium/" target="_blank"> shop front solutions</a>, K & D Shopfront and Shutters is a trusted provider of automatic door systems in the UK. Here’s why businesses rely on us:</p>
+    <h2>Why Choose Global ShopFronts Shopfront and Shutters?</h2>
+    <p>With years of expertise in<a href="https://kdshopfrontandshutters.com/shop-fronts-aluminium/" target="_blank"> shop front solutions</a>, Global ShopFronts Shopfront and Shutters is a trusted provider of automatic door systems in the UK. Here’s why businesses rely on us:</p>
   
     <ul>
       <li>🏆 <strong>Quality craftsmanship:</strong> Using durable materials.</li>
@@ -267,14 +267,14 @@ export const blogPosts = [
     </ul>
   
     <h2>Get a Free Consultation Today!</h2>
-    <p>Enhance your business entrance with high-quality automatic shop front doors from K & D Shopfront and Shutters. Our expert team is ready to provide a tailored solution that ensures accessibility, security, and style.</p>
+    <p>Enhance your business entrance with high-quality automatic shop front doors from Global ShopFronts Shopfront and Shutters. Our expert team is ready to provide a tailored solution that ensures accessibility, security, and style.</p>
   
     <p><strong>📞 Contact us today</strong> to discuss your requirements and get a free consultation on the best automatic door options for your business.</p>
   
     <p><strong>🌍 <a href='https://kdshopfrontandshutters.com/' target='_blank'>Visit our website</a> to learn more about our services.</strong></p>`,
 
     "image": "/blog/automaticshopdoors.jpg",
-    "metaTitle": "Automatic Shop Front Doors - Enhance Accessibility & Security | K & D Shopfront and Shutters",
+    "metaTitle": "Automatic Shop Front Doors - Enhance Accessibility & Security | Global ShopFronts Shopfront and Shutters",
     "metaDescription": "Upgrade your business entrance with high-quality automatic shop front doors. Improve security, accessibility, and energy efficiency. Get expert installation and repair services today!"
   }
 
