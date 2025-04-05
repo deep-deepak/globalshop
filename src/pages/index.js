@@ -22,7 +22,7 @@ export default function Home() {
       <Layout>
         <Seo
           title={"Global Shopfronts & Shutters - Expert Roller Shutter "}
-          description={"Global Shopfronts offers premium roller shutter installation, maintenance, and repair services across the UK. Enhance security and aesthetics for your commercial."}
+          description={"Global Shopfronts offers premium roller shutter installation, maintenance & repair services across the UK. Enhance your commercial property's security & look."}
         />
 
         <HeroSection />
