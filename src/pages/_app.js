@@ -11,7 +11,7 @@ import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
   const [showScrollButton, setShowScrollButton] = useState(false);
-  const router = useRouter()
+  const router = useRouter();
 
   // Initialize AOS animations
   useEffect(() => {
@@ -66,27 +66,30 @@ export default function App({ Component, pageProps }) {
         <meta name="robots" content="index,follow" />
         <meta
           name="google-site-verification"
-          content="pDXrhOKbmr95EG4Rbtns71Q0xQx0SdWCKwhuMjICydw"
+          content="6exmPX86ozYh1CRK2ZTpG0D1JuOw18F324IHpwLBvCI"
         />
-        <link rel="canonical" href="https://globalshopfrontsandshutters.co.uk/" />
+        <link
+          rel="canonical"
+          href="https://globalshopfrontsandshutters.co.uk/"
+        />
         <script type="application/ld+json">
           {`
             {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "globalshopfrontsandshutters",
-              "alternateName": "globalshopfrontsandshutters",
-              "url": "https://globalshopfrontsandshutters.co.uk/",
-              "logo": "",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+44 7407057984",
-                "contactType": "customer service",
-                "contactOption": "TollFree",
-                "areaServed": "GB",
-                "availableLanguage": "en"
-              }
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "globalshopfrontsandshutters",
+            "alternateName": "globalshopfrontsandshutters",
+            "url": "https://globalshopfrontsandshutters.co.uk/",
+            "logo": "https://globalshopfrontsandshutters.co.uk/logo.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+44 7735559454",
+              "contactType": "customer service",
+              "contactOption": "TollFree",
+              "areaServed": "GB",
+              "availableLanguage": "en"
             }
+          }
           `}
         </script>
       </Head>
@@ -94,7 +97,7 @@ export default function App({ Component, pageProps }) {
       {/* Google Analytics */}
       <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-058SP393MP"
+        src="https://www.googletagmanager.com/gtag/js?id=G-T0Y2FL58PZ"
       />
       <Script
         id="google-analytics"
@@ -104,7 +107,8 @@ export default function App({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-058SP393MP');
+
+            gtag('config', 'G-T0Y2FL58PZ');
           `,
         }}
       />

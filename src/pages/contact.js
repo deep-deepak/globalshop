@@ -69,15 +69,15 @@ const ContactForm = () => {
                             <ul className="list-unstyled mt-3">
                                 <li className="d-flex justify-content-between py-2">
                                     <span>Monday - Friday:</span>
-                                    <span style={{ color: "#FF6C22", fontWeight: "bold" }}>9:00 AM - 6:00 PM</span>
+                                    <span style={{ color: "#FF6C22", fontWeight: "bold" }}>24/7</span>
                                 </li>
                                 <li className="d-flex justify-content-between py-2">
                                     <span>Saturday:</span>
-                                    <span style={{ color: "#FF6C22", fontWeight: "bold" }}>10:00 AM - 4:00 PM</span>
+                                    <span style={{ color: "#FF6C22", fontWeight: "bold" }}>24/7</span>
                                 </li>
                                 <li className="d-flex justify-content-between py-2">
                                     <span>Sunday:</span>
-                                    <span style={{ color: "#FF6C22", fontWeight: "bold" }}>Closed</span>
+                                    <span style={{ color: "#FF6C22", fontWeight: "bold" }}>Opened</span>
                                 </li>
                             </ul>
                         </div>

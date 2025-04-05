@@ -21,8 +21,8 @@ export default function Home() {
     <>
       <Layout>
         <Seo
-          title={"Global Shop Front and Shutters - Premium Commercial Solutions"}
-          description={"Global Shop Front and Shutters provides high-quality aluminium windows, doors, shopfronts, curtain walling, and fire-rated solutions worldwide, delivering exceptional designs and expert installations for commercial properties."}
+          title={"Global Shopfronts & Shutters - Expert Roller Shutter "}
+          description={"Global Shopfronts offers premium roller shutter installation, maintenance, and repair services across the UK. Enhance security and aesthetics for your commercial."}
         />
 
         <HeroSection />

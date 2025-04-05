@@ -1,30 +1,18 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const PageHeading = ({ title, image }) => {
+const PageHeading = ({ title }) => {
     return (
         <div
             className="position-relative w-100 vh-70 d-flex align-items-center"
             style={{
                 height: '30vh',
-                backgroundImage: `url(${image})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
+                background: 'linear-gradient(to bottom, #000000 0%, #333333 100%)',
+                borderBottom: "5px solid #ff5733"
             }}
         >
-            {/* Light overlay */}
-            <div
-                className="position-absolute top-0 start-0 w-100 h-100"
-                style={{
-                    background: 'linear-gradient(to bottom, rgba(86, 84, 84, 0.1) 0%, rgba(40, 39, 39, 0.3) 100%)',
-                    zIndex: 1,
-                    borderBottom:"5px solid #ff5733"
-                }}
-            />
-
             {/* Content container */}
-            <Container className="position-relative" style={{ zIndex: 2 }}>
+            <Container className="position-relative">
                 <h1
                     className="text-center text-white m-0"
                     style={{
@@ -34,7 +22,7 @@ const PageHeading = ({ title, image }) => {
                         textTransform: 'uppercase',
                         lineHeight: 1.3,
                         letterSpacing: '4px',
-                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' // Added for better text visibility
+                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' // Kept for text visibility
                     }}
                 >
                     {title}
