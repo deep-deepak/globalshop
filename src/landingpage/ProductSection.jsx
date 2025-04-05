@@ -37,13 +37,13 @@ const ProductsSection = () => {
             <Container>
                 <Row className="mb-5">
                     <Col className="text-center">
-                        <h1
+                        <h2
                             className="display-4 fw-bold mb-3"
                             data-aos="fade-up"
                             style={{ color: '#333' }}
                         >
                             Our Product Services
-                        </h1>
+                        </h2>
                         <div
                             className="mx-auto"
                             style={{

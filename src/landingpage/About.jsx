@@ -28,9 +28,9 @@ const AboutSection = () => {
             <Container className="px-4">
                 <Row className="mt-4 mb-3" data-aos="fade-up">
                     <Col>
-                        <h1 className="text-center" style={{ color: '#ff6c22' }}>
+                        <h2 className="text-center" style={{ color: '#ff6c22' }}>
                             WELCOME TO GLOBAL SHOPFRONTS - EXPERT ROLLER SHUTTER INSTALLATION IN LONDON
-                        </h1>
+                        </h2>
                     </Col>
                 </Row>
 
