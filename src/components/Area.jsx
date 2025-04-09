@@ -6,7 +6,6 @@ import { useRouter } from 'next/router';
 import RollerShutterCTA from '../common/RollerShutterCTA';
 
 const ShopfrontService = ({ data }) => {
-    console.log("dtaaaa", data);
 
     const router = useRouter();
 

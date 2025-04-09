@@ -19,10 +19,10 @@ import FAQContactSection from '../landingpage/FAQContactSection';
 export default function Home() {
   return (
     <>
-       <Seo
-  title={"Global Shopfronts & Shutters - Expert Roller Shutter "}
-  description={"Global Shopfronts offers premium roller shutter installation, maintenance & repair services across the UK. Enhance your commercial property's security & look."}
-/>
+      <Seo
+        title={"Global Shopfronts & Shutters - Expert Roller Shutter "}
+        description={"Global Shopfronts offers premium roller shutter installation, maintenance & repair services across the UK. Enhance your commercial property's security & look."}
+      />
 
       <Layout>
 

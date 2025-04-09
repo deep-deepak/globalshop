@@ -1,5 +1,6 @@
 import PageHeading from '@/common/PageHeading';
 import Seo from '@/common/Seo';
+import ServiceArea from '@/components/ServiceArea';
 import Layout from '@/layout/Layout';
 import React, { } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
@@ -178,21 +179,28 @@ const ContactForm = () => {
                     </Col>
                 </Row>
             </Container>
+            <Row>
+                <Col md={6}>
+                    <div className="map-section" style={{ position: "relative" }}>
+                        <div className="map-header" style={{ background: "#FF6C22", padding: "15px 0", textAlign: "center" }}>
+                            <h4 className="m-0 text-white">Find Us On The Map</h4>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d78695.45843619261!2d-0.36700400452148574!3d51.9479410412529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x487633f7909271e3%3A0x77c9343bca794a7a!2s2%20Winston%20Close%2C%20Hitchin%20SG5%202HB%2C%20UK!3m2!1d51.947969799999996!2d-0.2846042!4m0!5e0!3m2!1sen!2sin!4v1743657221460!5m2!1sen!2sin"
+                            width="100%"
+                            height="440"
+                            style={{ border: "0" }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </Col>
+                <Col md={6}>
+                    <ServiceArea />
+                </Col>
+            </Row>
 
-            <div className="map-section" style={{ position: "relative" }}>
-                <div className="map-header" style={{ background: "#FF6C22", padding: "15px 0", textAlign: "center" }}>
-                    <h4 className="m-0 text-white">Find Us On The Map</h4>
-                </div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d78695.45843619261!2d-0.36700400452148574!3d51.9479410412529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x487633f7909271e3%3A0x77c9343bca794a7a!2s2%20Winston%20Close%2C%20Hitchin%20SG5%202HB%2C%20UK!3m2!1d51.947969799999996!2d-0.2846042!4m0!5e0!3m2!1sen!2sin!4v1743657221460!5m2!1sen!2sin"
-                    width="100%"
-                    height="600"
-                    style={{ border: "0" }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
         </Layout>
     );
 };
